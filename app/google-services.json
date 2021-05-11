@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931528734508",
+    "project_id": "pcsvernier-firebase",
+    "storage_bucket": "pcsvernier-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931528734508:android:59666a56d08a34a90d9e89",
+        "android_client_info": {
+          "package_name": "com.pcs.pcsvernier_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931528734508-nmpf46hkugdch2br5dr5n8p9hhle9um4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSeClYBFiO7a0FznaSUEdJ9hOe4TMpfeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931528734508-nmpf46hkugdch2br5dr5n8p9hhle9um4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

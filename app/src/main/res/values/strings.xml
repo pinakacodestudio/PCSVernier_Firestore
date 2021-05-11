@@ -1,0 +1,473 @@
+<resources>
+    <string name="app_name">Fire Store </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="defaultSpinner">
+        <item>Select Option</item>
+    </string-array>
+
+    <string name="testData">
+        [
+  {
+    \"item\": \"Block\",
+    \"process\": \"Cutting\",
+    \"machine\": \"AC-01\",
+    \"parameter\": \"T.LENGTH\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 24,
+    \"upper_tolerance\": 24.2,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Cutting\",
+    \"machine\": \"AC-01\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-51\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 6.7,
+    \"upper_tolerance\": 6.9,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-51\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 6.9,
+    \"upper_tolerance\": 7.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-51\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.4,
+    \"upper_tolerance\": 7.6,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-51\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-22\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 6.8,
+    \"upper_tolerance\": 7.2,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-22\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 5.9,
+    \"upper_tolerance\": 6.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-22\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.9,
+    \"upper_tolerance\": 8.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-22\",
+    \"parameter\": \"HOLE DEEP\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 11.9,
+    \"upper_tolerance\": 12.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-22\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-19\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 6.3,
+    \"upper_tolerance\": 6.7,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-19\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 15.9,
+    \"upper_tolerance\": 16.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-19\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.9,
+    \"upper_tolerance\": 8.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-19\",
+    \"parameter\": \"HOLE DEEP\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 8.9,
+    \"upper_tolerance\": 9.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-19\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-20\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 6.3,
+    \"upper_tolerance\": 6.7,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-20\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 5.15,
+    \"upper_tolerance\": 5.35,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-20\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.9,
+    \"upper_tolerance\": 8.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-20\",
+    \"parameter\": \"HOLE DEEP\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 9.9,
+    \"upper_tolerance\": 10.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-20\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"DR-35\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 4.9,
+    \"upper_tolerance\": 5.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"DR-35\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 4.9,
+    \"upper_tolerance\": 5.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"DR-35\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 5.9,
+    \"upper_tolerance\": 6.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"DR-35\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-01\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 4.1,
+    \"upper_tolerance\": 4.3,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-01\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.9,
+    \"upper_tolerance\": 8.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-01\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 25.9,
+    \"upper_tolerance\": 26.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-01\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-02\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 4.1,
+    \"upper_tolerance\": 4.3,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-02\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.9,
+    \"upper_tolerance\": 8.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-02\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 25.9,
+    \"upper_tolerance\": 26.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Thread Hole\",
+    \"machine\": \"SA-02\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"TH-06\",
+    \"parameter\": \"THREAD\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"TH-06\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"TH-07\",
+    \"parameter\": \"THREAD\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"TH-07\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"TH-08\",
+    \"parameter\": \"THREAD\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"TH-08\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"AC-01\",
+    \"parameter\": \"THREAD\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Threading\",
+    \"machine\": \"AC-01\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-21\",
+    \"parameter\": \"HOLE\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 9.8,
+    \"upper_tolerance\": 10.2,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-21\",
+    \"parameter\": \"HOLE CENTER-1\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.4,
+    \"upper_tolerance\": 7.6,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-21\",
+    \"parameter\": \"HOLE CENTER-2\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 7.9,
+    \"upper_tolerance\": 8.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-21\",
+    \"parameter\": \"HOLE DEEP\",
+    \"value_or_ok\": 1,
+    \"lower_tolerance\": 13.9,
+    \"upper_tolerance\": 14.1,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  },
+  {
+    \"item\": \"Block\",
+    \"process\": \"Drilling\",
+    \"machine\": \"DR-21\",
+    \"parameter\": \"VISUALLY\",
+    \"value_or_ok\": 0,
+    \"lower_tolerance\": 0,
+    \"upper_tolerance\": 0,
+    \"datetime\": \"0000-00-00 00:00:00\"
+  }
+]
+    </string>
+</resources>
