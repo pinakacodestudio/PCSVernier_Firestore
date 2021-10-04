@@ -20,7 +20,7 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.pcs.pcsvernier_firebase", appContext.getPackageName());
-        //Comment   
+        //Comment Added
         Toast.makeText(getApplicationContext(),"Firebase Connected",Toast.LENGTH_LONG).show();
     }
 }
